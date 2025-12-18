@@ -25,6 +25,10 @@ int main()
     }
 
     cout << "Yes";
+
+    cout << "Game over" << endl;
+
+    return 0;
     }
 
 
