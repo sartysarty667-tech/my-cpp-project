@@ -7,11 +7,6 @@ int main()
     string s ,t;
     cin >> s >> t;
 
-    if(s.size() != t.size()){
-        cout << "No";
-        return 0;
-    }
-
     map<char ,int> v;
 
     for( char c : s){
